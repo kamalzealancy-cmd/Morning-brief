@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Solar Drones Map Coral Reefs",
+    "url": "https://test.local/solar-drones",
+    "posted": "2099-01-03 09:00",
+    "text": "Researchers at the Bluewater Institute launched 12 solar-powered drones to map coral reefs off the coast of Fiji. The drones flew for 40 days without landing and photographed 3,200 square kilometres of reef. The team says the maps will help track coral bleaching every month instead of once a year.",
+    "question": "How many drones did the Bluewater Institute launch?",
+    "expected": "12"
+  },
+  {
+    "title": "Startup Builds Offline Pocket Translator",
+    "url": "https://test.local/pocket-translator",
+    "posted": "2099-01-02 09:00",
+    "text": "Lingo Pebble, a five-person startup in Lisbon, released a pocket translator that works without an internet connection. The device supports 18 languages, runs for 9 hours on one charge, costs 79 euros, and starts shipping in March.",
+    "question": "How much does the Lingo Pebble translator cost?",
+    "expected": "79"
+  },
+  {
+    "title": "Town Library Lends Coding Robots",
+    "url": "https://test.local/library-robots",
+    "posted": "2099-01-01 09:00",
+    "text": "The public library in Maple Falls now lends small coding robots to children. Each robot can be borrowed for 14 days. In the first month, 260 families borrowed one, and the library plans to buy 40 more next year.",
+    "question": "For how many days can a child borrow a coding robot?",
+    "expected": "14"
+  }
+]

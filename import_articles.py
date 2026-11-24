@@ -1,5 +1,8 @@
 import json
+import os
 import urllib.request
+
+API = os.getenv("API_URL", "http://127.0.0.1:8000")
 
 with open("headlines.json", encoding="utf-8") as f:
     headlines = {h["url"]: h for h in json.load(f)}
@@ -16,7 +19,7 @@ for name in ["article.txt", "article2.txt", "article3.txt"]:
         "text": text,
     }
     request = urllib.request.Request(
-        "http://127.0.0.1:8000/articles",
+        API + "/articles",
         data=json.dumps(article).encode(),
         headers={"Content-Type": "application/json"},
     )
