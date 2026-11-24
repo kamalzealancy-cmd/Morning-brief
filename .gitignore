@@ -1,3 +1,4 @@
 article*.txt
 infra/cdk.out/
 __pycache__/
+infra/cdk.context.json
